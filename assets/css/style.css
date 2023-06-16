@@ -1,13 +1,16 @@
+/* Global selector  style */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Body style */
 body {
     background-color: #d9dcd6;
 }
 
+/* Start of header and division styles */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,16 +43,20 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+/* End of header and division styles */
 
+/* <a> Element style */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* <p> Element style */
 p {
     font-size: 16px;
 }
 
+/* Hero style  */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +66,7 @@ p {
     background-position: center;
 }
 
+/* Utility class styles */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,13 +76,16 @@ p {
     float: right;
     margin-left: 25px;
 }
+/* End of utility class styles */
 
+/* Content style */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Benefits article styles start */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -133,7 +144,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* Benefits section styles end */
 
+/* Search engine optimization style */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +156,7 @@ p {
     color: #ffffff;
 }
 
+/* Online reputation management style */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +166,7 @@ p {
     color: #ffffff;
 }
 
+/* Social media marketing style */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
